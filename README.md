@@ -1,1 +1,0 @@
-# okidev_events
