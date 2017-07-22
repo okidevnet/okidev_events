@@ -1,5 +1,33 @@
+body {
+    background-color: #ccc;
+}
+
 .container {
-  width: 250px;
+    width: 250px;
+}
+
+.body {
+    width: 250px;
+    border: solid 5px #eee;
+    border-radius: 10px;
+}
+
+.usamimi {
+    height: 100px;
+    width: 25%;
+    border: solid 5px #eee;
+    border-radius: 100px 100px 0 0;
+    background-color: #f9bbe6;
+    margin-left: 10px;
+}
+
+
+.usamimi:first-child {
+    float: right;
+}
+.usamimi:last-child {
+    margin-left: calc(50% - 5px - 5px);
+    display: inline;
 }
 
 #display{
