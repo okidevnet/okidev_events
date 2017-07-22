@@ -44,3 +44,7 @@ button {
   height: 50px;
   margin: 3px;
 }
+
+button[value="tax"] {
+    font-size: 14px;
+}
