@@ -1,7 +1,11 @@
 var entry = '';
 $(function() {
     $("button").click(function() {
-        entry += $(this).attr("value");
+        if ($(this).attr("value") != "=") {
+            entry += $(this).attr("value");
+        } else {
+            entry = eval(entry);
+        }
         $("#display").html(entry);
   });
 });
