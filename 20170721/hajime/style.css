@@ -7,11 +7,13 @@
   font-size: 24px;
   height: 30px;
   padding: 10px;
+  border: solid 1px #000000;
 }
 
 #buttons{
   background-color: #ddd;
   padding: 5px;
+  border: solid 1px #000000;
 }
 
 button {
