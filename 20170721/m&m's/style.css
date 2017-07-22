@@ -12,6 +12,11 @@ body {
     border-radius: 10px;
 }
 
+.usamimi-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .usamimi {
     height: 100px;
     width: 25%;
@@ -19,15 +24,6 @@ body {
     border-radius: 100px 100px 0 0;
     background-color: #f9bbe6;
     margin-left: 10px;
-}
-
-
-.usamimi:first-child {
-    float: right;
-}
-.usamimi:last-child {
-    margin-left: calc(50% - 5px - 5px);
-    display: inline;
 }
 
 #display{
