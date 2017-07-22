@@ -1,5 +1,7 @@
+var entry = '';
 $(function() {
-  $("button").click(function() {
-    $("#display").html($(this).attr("value"));
+    $("button").click(function() {
+        entry += $(this).attr("value");
+        $("#display").html(entry);
   });
 });
