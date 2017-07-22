@@ -1,7 +1,9 @@
 var entry = '';
 $(function() {
     $("button").click(function() {
-        if ($(this).attr("value") != "=") {
+        if ($(this).attr("value") == "ac") {
+            entry = "";
+        } else if ($(this).attr("value") != "=") {
             entry += $(this).attr("value");
         } else {
             entry = eval(entry);
